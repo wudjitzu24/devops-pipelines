@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
   steps:
-    - name: Chechout code
+    - name: Checkout code
       uses: actions/checkout@y5
     
     - name: Set up Node.js
